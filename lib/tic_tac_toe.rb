@@ -5,9 +5,11 @@ def play(board)
   if over?(board)
     if draw?(board)
       puts "It is a draw!"
+    end
     elsif winner(board)
       puts winner(board) + " is the glorious winner!"
-
+    end
+  end
 end
 
 # Helper Method
